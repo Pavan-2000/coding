@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salon</title>
+	<style type="text/css">
+		body
+		{
+			background-image: url("w.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		#container
+		{
+			display: grid;
+			grid-template-areas: 
+			'b a a a a a'
+			'c c c c c c'
+			'd d d d d d'
+			'e e e e e e'
+			'f f f f f f'
+			'g g g g g g'
+			'h h h h h h'
+		}
+		#head
+		{
+			background-color: transparent;
+			height: 50px;
+			grid-area: b;
+		}
+		#head1
+		{
+			background-color: green;
+			height: 50px;
+			grid-area: a;
+		}
+		#a:hover
+		{
+			color: brown;
 
+		}
+		#a
+		{
+			margin-left: 140px;
+			margin-top: 20px;
+			text-decoration: none;
+			color: white;
+		}
+		#head2
+		{
+			background-color: transparent;
+			height: 30px;
+			grid-area: c;
+		}
+		#head3
+		{
+			background-color: rgba(11,22,2222,0.5);
+			height: 300px;
+			grid-area: d;
+		}
+		#head4
+		{
+			background-color: transparent;
+			height: 400px;
+			grid-area: e;
+		}
+		#head5
+		{
+			background-color:rgba(111,22,22,0.5);
+			height: 400px;
+			grid-area: f;
+		}
+		#head6
+		{
+			background-color: transparent;
+			height: 400px;
+			grid-area: g;
+		}
+		#bottom
+		{
+			grid-area: h;
+			height: 200px;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+<form>
+	<div id="container">
+		<div id="head1"><br>
+			<a href="#" id="a">Home</a>
+			<a href="services.html" id="a">Services</a>
+			<a href="specials.html" id="a">Specials</a>
+			<a href="book online.html" id="a">Book Online</a>
+			<a href="contact.html" id="a">Contact</a>
+		</div>
+		<div id="head">
+			<small style="font-size: 30px;color: red;font-family: cursive;">Beautify .......</small>
+		</div>
+		<div id="head2"></div>
+		<div id="head3"><br><small style="font-size:30px; color: white"><center>Our Happy Customers</center></small>
+			<b style="color: white;padding-left: 20px;">Reviews:</b>
+
+			<img src="w.jpeg" height="200px" width="400px" style="margin-left: 800px; border: 1px solid silver;">
+		</div>
+		<div id="head4"><br><small style="font-size:30px; color: white;padding-left: 20px;">Facials Book Now<br><img src="arrow.png" width="40px" height="40px"></small>
+			<small style="font-size:30px;color: white;"><center>Packages under</center></small><br>
+			<input type="button" value="3000" style="float: right; margin-right: 250px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<input type="button" value="2000" style="float: right; margin-right: 100px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<input type="button" value="1000" style="float: right; margin-right: 100px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<img src="facial.jpg" height="200px" width="400px" style=" margin-left:20px;border: 1px solid silver;">
+		</div>
+		<div id="head5"><br><small style="font-size:30px; color: white;padding-left: 20px;">MakeUp Book Now<br><img src="arrow.png" width="40px" height="40px"></small>
+			<small style="font-size:30px;color: white;"><center>Packages under</center></small><br>
+			<input type="button" value="3000" style="float: right; margin-right: 250px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<input type="button" value="2000" style="float: right; margin-right: 100px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<input type="button" value="1000" style="float: right; margin-right: 100px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<img src="a.jpg" height="200px" width="200px" style=" margin-left:20px;border: 1px solid silver;">
+		</div>
+		<div id="head6"><br><small style="font-size:30px; color: white;padding-left: 20px;">Nails Book Now<br><img src="arrow.png" width="40px" height="40px"></small>
+			<small style="font-size:30px;color: white;"><center>Packages under</center></small><br>
+			<input type="button" value="3000" style="float: right; margin-right: 250px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<input type="button" value="2000" style="float: right; margin-right: 100px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<input type="button" value="1000" style="float: right; margin-right: 100px; background-color: brown;color: white;height: 40px;width: 100px;">
+			<img src="nail.png" height="200px" width="300px" style=" margin-left:20px;border: 1px solid silver;">
+		</div>
+		<div id="bottom">
+			<br><br><br>
+			<a href="#" style="padding-left: 150px;text-decoration: none; color: red;font-size: 20px;">Wedding Specials</a>
+			<a href="#" style="padding-left: 300px; text-decoration: none; color: red;font-size: 20px;">Season Discounts</a>
+			<a href="#" style="padding-left: 300px; text-decoration: none;color: red;font-size: 20px;">specials</a><br><br>
+			<small style="padding-left: 20px;font-size: 20px;">You can Follow Us With:</small><br><br>
+			<img src="download.png" height="40px" width="50px" style="margin-left: 230px;">
+			<img src="f.jpg" height="40px" width="50px" style="margin-left: 30px;">
+			<img src="skype.png" height="40px" width="50px" style="margin-left: 30px;">
+		</div>
+	</div>
+</form>
+</body>
+</html>
